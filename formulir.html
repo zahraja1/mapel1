@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td{
+        width: 10%;
+        height: 5%;
+        border:2px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        padding: 3%;
+    }
+</style>
+<body>
+    <h1>list pesanan</h1>
+    <label for="nama lengkap">Nama</label>
+    <br>
+    <input type="text" required id="nama lengkap/" placeholder="masukkan nama lengkap"/>
+    <br><br>
+    <label for="tanggal">tanggal</label>
+    <br>
+    <input type="date" required id="tanggal/"/>
+    <br><br>
+    <label for="meja">no anrian</label>
+    <br> 
+    <input type="text" required id="meja/" placeholder="masukkan no antrian">
+    <br>
+    <h2>makanan yang akan dipesan</h2>
+    <table  style="width: 50%; border: 2px black;">
+        <tr>
+            <th>no</th>
+            <th>pesanan makanan</th>
+            <th>jumlah pesanan</th>
+        
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+
+    </table>
+    <br>
+    <label for="ppilihan">tempat makan</label>
+    <select id="ppilihan">
+        <option value="#">pilih</option>
+        <option value="dine_in">dine in</option>
+        <option value="take_away">take away</option>
+
+    </select>
+    <script>
+        var nama = prompt("Siapa nama kamu?", "");
+        document.write("<p>Hello "+ nama +"</p>");
+    </script>
+
+</body>
+</html>

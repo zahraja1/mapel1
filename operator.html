@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator pada java script</title>
+</head>
+<body>
+    <h1>operator aritmatika</h1>
+    <!-- +,-,/,* -->
+    <p id="arit"></p>
+    <script>
+        let a ="12"
+        let b ="10"
+        let c = a / b;
+        document.getElementById("arit").innerHTML = c;
+    </script>
+    <br><br>
+    <h1>opertor perbandingan</h1>
+    <!-- ==, !=, >, <, >=, <=, ?-->
+
+    <p id="banding"></p>
+    <script>
+        let d = "20"
+        let e ="14";
+
+        if(d <=19){
+            d = "betulll"
+        }else{
+            d="salah"
+        }
+        document.getElementById("banding").innerHTML=d;
+
+    </script>
+
+    <br><br>
+    <h1> operator logika</h1>
+    <!-- &&, ||, ! -->
+    <p id="logika"></p>
+    <script>
+        let nama="ara"
+        let email="ara@gmail.com"
+        let pass="123"
+        let hasil;
+
+        if(email=="ara@gmail.com"&& pass=="123"){
+            hasil="masuk"
+        }else{
+            hasilnya ="cobalagi"
+        }
+        document.getElementById("logika").innerHTML=hasil;
+    </script>
+    <h1>operator cabang</h1>
+    
+</body>
+</html>
